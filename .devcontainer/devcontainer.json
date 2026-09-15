@@ -1,10 +1,8 @@
 {
     "name": "Becker Karel Classroom",
 
-    "image": "mcr.microsoft.com/devcontainers/java:1-21-bookworm",
-
-    "features": {
-        "ghcr.io/devcontainers/features/desktop-lite:1": {}
+    "build": {
+        "dockerfile": "../Dockerfile"
     },
 
     "customizations": {
@@ -24,5 +22,7 @@
             "label": "Karel Display",
             "onAutoForward": "openBrowser"
         }
-    }
+    },
+
+    "remoteUser": "vscode"
 }
