@@ -14,4 +14,3 @@ RUN rm -f /etc/apt/sources.list.d/yarn*.list && \
 
 USER vscode
 
-RUN chmod +x /workspaces/Karel-The-Robot/scripts/start-display.sh
