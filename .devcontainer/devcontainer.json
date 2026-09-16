@@ -29,6 +29,6 @@
     "containerEnv": {
     "DISPLAY": ":1"
     },
-    "postStartCommand": "nohup bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 </dev/null &"
+    "postAttachCommand": "nohup bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 </dev/null &"
    
 }
