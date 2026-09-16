@@ -25,5 +25,5 @@
     },
 
     "remoteUser": "vscode",
-    "postStartCommand": "bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 &"
+    "postCreateCommand": "bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 &"
 }
