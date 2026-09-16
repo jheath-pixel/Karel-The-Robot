@@ -4,6 +4,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     },
+    "overrideCommand": false,
 
     "customizations": {
         "vscode": {
