@@ -14,5 +14,5 @@ RUN rm -f /etc/apt/sources.list.d/yarn*.list && \
 
 USER vscode
 
-CMD ["bash", "scripts/start-display.sh"]
+
 

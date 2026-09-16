@@ -4,7 +4,7 @@
     "build": {
         "dockerfile": "../Dockerfile"
     },
-    "overrideCommand": false,
+   
 
     "customizations": {
         "vscode": {
@@ -29,5 +29,6 @@
     "containerEnv": {
     "DISPLAY": ":1"
     },
-    "postStartCommand": "bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 &"
+    "postStartCommand": "nohup bash scripts/start-display.sh > /tmp/karel-display.log 2>&1 </dev/null &"
+   
 }
