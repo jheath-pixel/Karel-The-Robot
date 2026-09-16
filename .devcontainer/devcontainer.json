@@ -21,7 +21,8 @@
     "portsAttributes": {
         "6080": {
             "label": "Karel Display",
-            "onAutoForward": "openBrowser"
+            "onAutoForward": "openBrowser",
+            "protocol": "http"
         }
     },
 
